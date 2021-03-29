@@ -1,104 +1,104 @@
 - name: AsyncEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/AsyncEvent.html
   source: bungeecord
-  description: ''
+  description: 非同期で処理されるイベントを表す。
 - name: ChatEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ChatEvent.html
   source: bungeecord
-  description: ''
+  description: プレイヤーがメッセージを送信した時に呼び出される。
 - name: ClientConnectEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ClientConnectEvent.html
   source: bungeecord
-  description: ''
+  description: クライアントが接続する時に呼び出される。全ての接続の初期段階で呼び出されるので、高速で処理する必要がある。
 - name: ConnectionInitEvent
   link: https://papermc.io/javadocs/waterfall/io/github/waterfallmc/waterfall/event/ConnectionInitEvent.html
   source: waterfall
-  description: ''
+  description: 新しい接続があった時に呼び出される。接続を効率的に閉じることを可能にする。
 - name: Event
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/plugin/Event.html
   source: bungeecord
-  description: ''
+  description: イベントを表す。
 - name: LoginEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/LoginEvent.html
   source: bungeecord
-  description: ''
+  description: プレイヤーがログインする時に呼び出される。
 - name: PermissionCheckEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PermissionCheckEvent.html
   source: bungeecord
-  description: ''
+  description: CommandSender の権限を確認する時に呼び出される。
 - name: PlayerDisconnectEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PlayerDisconnectEvent.html
   source: bungeecord
-  description: ''
+  description: プレイヤーがプロキシを離れた時に呼び出される。
 - name: PlayerHandshakeEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PlayerHandshakeEvent.html
   source: bungeecord
-  description: ''
+  description: ハンドシェイクを行う時に呼び出される。プレイヤーの存在やユーザー名を知る事が出来る最初のイベントである。
 - name: PluginMessageEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PluginMessageEvent.html
   source: bungeecord
-  description: ''
+  description: クライアントやサーバーから送信されたプラグインメッセージを受信する時に呼び出される。
 - name: PostLoginEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PostLoginEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーに接続する準備が出来た時に呼び出される。ProxiedPlayer にアクセスできる最初のイベントである。
 - name: PreLoginEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/PreLoginEvent.html
   source: bungeecord
-  description: ''
+  description: ログインを試みる時に呼び出される。Mojang のサーバーでの認証後に取得されるプレイヤーに関連する情報は含まれず、UUID 等は使用することが出来ない。
 - name: ProxyDefineCommandsEvent
   link: https://papermc.io/javadocs/waterfall/io/github/waterfallmc/waterfall/event/ProxyDefineCommandsEvent.html
   source: waterfall
-  description: ''
+  description: タブ補完に使われるコマンドを定義される時に呼び出される。
 - name: ProxyExceptionEvent
   link: https://papermc.io/javadocs/waterfall/io/github/waterfallmc/waterfall/event/ProxyExceptionEvent.html
   source: waterfall
-  description: ''
+  description: 回復可能な状況で例外が発生した時に呼び出される。
 - name: ProxyPingEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ProxyPingEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーリストからピングされた時に呼び出される。
 - name: ProxyQueryEvent
   link: https://papermc.io/javadocs/waterfall/io/github/waterfallmc/waterfall/event/ProxyQueryEvent.html
   source: waterfall
-  description: ''
+  description: クエリ要求を受信した時に呼び出される。
 - name: ProxyReloadEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ProxyReloadEvent.html
   source: bungeecord
-  description: ''
+  description: プロキシがリロードする時に呼び出される。
 - name: ServerConnectEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ServerConnectEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーに接続する時に呼び出される。プレイヤーがサーバーに接続するのをキャンセルする場合等に使う。
 - name: ServerConnectedEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ServerConnectedEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーに接続した時に呼び出される。プレイヤーがログインする前にサーバーに情報を送信する場合等に使う。
 - name: ServerDisconnectEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ServerDisconnectEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーへの接続を切断した時に呼び出される。
 - name: ServerKickEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ServerKickEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーからキックされた時に呼び出される。
 - name: ServerSwitchEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/ServerSwitchEvent.html
   source: bungeecord
-  description: ''
+  description: プレイヤーが接続先のサーバーを変更した時に呼び出される。
 - name: SettingsChangedEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/SettingsChangedEvent.html
   source: bungeecord
-  description: ''
+  description: クライアント設定を変更した時に呼び出される。
 - name: TabCompleteEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/TabCompleteEvent.html
   source: bungeecord
-  description: ''
+  description: タブ補完を行う時に呼び出される。
 - name: TabCompleteResponseEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/TabCompleteResponseEvent.html
   source: bungeecord
-  description: ''
+  description: サーバーがタブ補完を行う時に呼び出される。プロキシによって処理されたタブ補完では呼び出されない。
 - name: TargetedEvent
   link: https://ci.md-5.net/job/BungeeCord/ws/api/target/apidocs/net/md_5/bungee/api/event/TargetedEvent.html
   source: bungeecord
-  description: ''
+  description: 2つのノード間の通信で発生するイベントを表す。
