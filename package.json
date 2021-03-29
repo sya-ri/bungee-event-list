@@ -1,0 +1,33 @@
+{
+  "name": "spigot-event-list",
+  "description": "Bukkit, Spigot, Paper Event List",
+  "keywords": [],
+  "license": "ISC",
+  "author": "sya_ri",
+  "scripts": {
+    "download": "ts-node src/download-events.ts",
+    "generate": "ts-node src/generate-output.ts",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "update": "npm run download && npm run generate"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "handlebars": "^4.7.7",
+    "js-yaml": "^4.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.36",
+    "@types/request-promise": "^4.1.47",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
