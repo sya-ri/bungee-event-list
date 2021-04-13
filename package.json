@@ -1,6 +1,6 @@
 {
-  "name": "spigot-event-list",
-  "description": "Bukkit, Spigot, Paper Event List",
+  "name": "bungee-event-list",
+  "description": "BungeeCord, Waterfall Event List",
   "keywords": [],
   "license": "ISC",
   "author": "sya_ri",
